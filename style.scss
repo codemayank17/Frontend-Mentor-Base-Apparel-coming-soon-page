@@ -36,15 +36,14 @@ body {
 
   .header {
     display: flex;
-    padding: 20px 8rem;
+    padding: 10px 8rem;
     margin-top: 40px;
     grid-area: header;
+    img {
+      height: 40px;
+    }
     @media only screen and (max-width: 768px) {
       padding: 10px 1rem;
-
-      img {
-        height: 50px;
-      }
     }
   }
 
