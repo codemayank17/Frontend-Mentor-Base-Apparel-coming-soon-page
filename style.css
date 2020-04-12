@@ -174,7 +174,6 @@ body .image {
   -ms-grid-column: 2;
   grid-area: image;
   overflow: hidden;
-  height: 200px;
   background-image: url(./images/hero-desktop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -184,6 +183,7 @@ body .image {
   body .image {
     background-image: url(./images/hero-mobile.jpg);
     background-size: cover;
+    height: 200px;
   }
 }
 /*# sourceMappingURL=style.css.map */
